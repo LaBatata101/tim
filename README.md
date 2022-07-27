@@ -40,6 +40,7 @@ $ export POSTGRES_USER=test; export POSTGRES_PASSWORD=12345; export POSTGRES_SER
 ```
 After that we need to initialize the database tables using [alembic](https://alembic.sqlalchemy.org/en/latest/), for that just run:
 ```bash
+$ cd tim-api
 $ alembic upgrade e82387d4aa0d
 $ alembic upgrade 8a1bc31142ab
 ```
@@ -49,3 +50,7 @@ $ uvicorn tim.main:app --reload
 ```
 
 ### Running the frontend
+```bash
+$ cd tim-gui
+$ python main.py
+```
