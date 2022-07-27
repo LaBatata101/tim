@@ -1,6 +1,8 @@
 [submodule "tim-api"]
 	path = tim-api
 	url = https://github.com/LaBatata101/tim-api
+    branch = main
 [submodule "tim-gui"]
 	path = tim-gui
 	url = https://github.com/LaBatata101/tim-gui
+    branch = main
